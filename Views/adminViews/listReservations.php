@@ -5,4 +5,4 @@ ob_start()
 
 <?php
 $content = ob_get_clean();
-require_once("layoutAdmin.php");
+require_once("Views/layoutAdmin.php");
